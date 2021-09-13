@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C04 {
     public static void main(String[] args) {
         /* Soru: Mesafeyi ve hizi alip süreyi tanimlayan bir kod yaziniz.
-        Örnegin; Istanbul ile Ankara arasi 400 km olarak ölcülmektedir. Bu yolu ortalama
+        Örnegin; Istanbul ile Ankara arasi 400 km olarak ölcülmektedir.  Bu yolu ortalama
         120 km/s hizla giden bir arac ne kadar sürede hedefe varir?
 
         Expected Output:
