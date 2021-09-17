@@ -15,25 +15,25 @@ public class C08 {
         Eger sürücünün ehliyeti yoksa cezaya 200$ eklenir.
         Exp: Hiziniz 77 iken cezaniz 150$'dir ama ehliyetiniz yoksa ceza 350$ olur.
          */
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("hizinizi giriniz");
-        int hiz=scan.nextInt();
+        int hiz = scan.nextInt();
 
         System.out.println("ehliyetiniz varsa 1 degilse 0 yaziniz");
-        int ehliyet=scan.nextInt();
+        int ehliyet = scan.nextInt();
 
-        if(ehliyet==1) {
-            if(hiz>54 && hiz<75 ){
-            System.out.println("cezaniz 100$'dir");
-        }else if(hiz>=75 && hiz<85){
+        if (ehliyet == 1) {
+            if (hiz > 54 && hiz < 75) {
+                System.out.println("cezaniz 100$'dir");
+            } else if (hiz >= 75 && hiz < 85) {
                 System.out.println("cezaniz 150$'dir");
-            }else if(hiz>=85 && hiz<95) {
+            } else if (hiz >= 85 && hiz < 95) {
                 System.out.println("cezaniz 320$'dir");
-            }else if(hiz>=95 ) {
+            } else if (hiz >= 95) {
                 System.out.println("cezaniz 500$'dir");
-
-                if (ehliyet == 0) {
-                    if (hiz > 54 && hiz < 75) {
+            }
+            }else  {
+            if (hiz > 54 && hiz < 75) {
                         System.out.println("cezaniz 300$'dir");
                     } else if (hiz >= 75 && hiz < 85) {
                         System.out.println("cezaniz 350$'dir");
@@ -44,5 +44,7 @@ public class C08 {
                     }
 
                 }
+
             }
+        }
 
